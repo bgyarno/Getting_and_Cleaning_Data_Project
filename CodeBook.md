@@ -90,3 +90,7 @@ The full list of variables are provided below
 [67] "frequency_based_body_rotation_jerk_magnitude_mean"     
 [68] "frequency_based_body_rotation_jerk_magnitude_stdev"   
        
+       
+The provided script 'Run_Analysis.R' converts the raw data into the tidy datset.  The processing steps for this script are as follows:
+
+    
