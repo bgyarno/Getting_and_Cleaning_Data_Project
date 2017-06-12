@@ -1,7 +1,7 @@
 # Getting_and_Cleaning_Data_Project
 
 The scripts contained in the file 'Run_Analysis.R' import the raw data files from the UCI HAR Dataset and comine them for analysis.
-The output of this series of scripts is the csv file "tidy_data2.csv".  This file contains the average of a set of selected measurements
+The output of this series of scripts is the text file "tidy_data2.txt".  This file contains the average of a set of selected measurements
         for each subject and activity combination.
 
 The processing steps for 'Run_Analysis.R' are as follows:
@@ -27,4 +27,4 @@ The processing steps for 'Run_Analysis.R' are as follows:
 7.  The preceding steps result in the original 'tidy' dataset.  The assignment calls for a second tidy dateset, shown below
     a.  ddply package is used to group the data frame by subject and activiy and calcuate the mean of each variable.  The 'data_type' 
               variable describing if the data is training or test is excluded from this dataset
-    b.  This final dataset is exported to csv as 'tidy_data2.csv'
+    b.  This final dataset is exported to a text file as 'tidy_data2.txt'
