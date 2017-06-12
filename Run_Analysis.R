@@ -67,3 +67,6 @@ names(tidy_data) <- gsub("body_body", "body", names(tidy_data))
 ## activity and subject                                               ##
 ########################################################################
 tidy_data2 <- as.data.frame(ddply(tidy_data, c(.(subject_id), .(activity)), numcolwise(mean)))
+
+## export new tidy dataset to csv file
+write.csv(tidy_data2, "./tidy_data2.csv", row.names = FALSE)
