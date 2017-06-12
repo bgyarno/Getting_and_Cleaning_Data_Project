@@ -4,8 +4,10 @@ The raw data for this project is from the UCI HAR dataset.  In this experiment, 
        smartphone attached to their waste.  Signals were collected from the accelerometer and gysroscope in these devices.  These signals
        were used to create the variables in the dataset.
 
+A script file 'Run_Analysis.R' is provided that will convert the raw data into a datafile that calculates the mean value of a specified
+       set of measurments (those that measured mean and standard deviation in the raw data files) for each subject and activity combination.
 
-The variables in the final dataset 'tidy_data2.csv' are as follows:
+The variables in the final dataset 'tidy_data2.txt' are as follows:
 
 1.  subject_id:  unique identifier for each subject in the study (range: 1-30)
 2.  activity:  the activity being performed in each observation.  Activities are as follows:
